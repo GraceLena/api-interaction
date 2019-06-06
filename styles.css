@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=latin,cyrillic';
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Ubuntu', serif; font-size: 36px;
+  background: #00f; color: #fff;
+}
+* {
+  font-family: 'Ubuntu', serif;
+  
+}
+#container {
+  display: flex;
+  width: 980px; 
+  height: 100%;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	margin: 20px;
+}
+
+textarea {
+	height: 100px;
+	width: 250px;
+}
